@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="calculator">
+        <div id="operator"></div>
+        <div id="buttons">
+        <div id="firstline">
+            <button id="orange" onclick="Pont()">**</button>
+            <button id="orange" onclick="Delete()">CE</button>
+            <button id="orange" onclick="Delete()">C</button>
+            <button id="orange" onclick="Back()"> <</div>
+        <div id="secondline">
+            <button id="grey" onclick="Numbers(7)">7</button>
+            <button id="grey" onclick="Numbers(8)">8</button>
+            <button id="grey" onclick="Numbers(9)">9</button>
+            <button id="orange" onclick="Mult()">X</button>
+        </div>
+        <div id="thirdline">
+            <button id="grey" onclick="Numbers(4)">4</button>
+            <button id="grey" onclick="Numbers(5)">5</button>
+            <button id="grey" onclick="Numbers(6)">6</button>
+            <button id="orange" onclick="Minus()">-</button>
+        </div>
+        <div id="forthline">
+            <button id="grey" onclick="Numbers(1)">1</button>
+            <button id="grey" onclick="Numbers(2)">2</button>
+            <button id="grey" onclick="Numbers(3)">3</button>
+            <button id="orange" onclick="Plus()">+</button>
+        </div>
+        <div id="fifithline">
+            <button id="grey" onclick="Numbers(0)">0</button>
+            <button id="red" onclick="Equal()">=</button>
+        </div>    
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
